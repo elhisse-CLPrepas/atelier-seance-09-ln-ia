@@ -1,0 +1,14 @@
+{
+  "name": "atelier-seance-09-ln-ia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "node --check src/main.js && node --check src/data.js && node --test tests/*.test.mjs",
+    "standalone": "node scripts/create-standalone.mjs && node scripts/test-render.mjs --standalone"
+  },
+  "devDependencies": {"vite": "^6.3.5"}
+}
