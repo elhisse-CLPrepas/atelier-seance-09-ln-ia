@@ -6,6 +6,12 @@
 **Pilotage : Prof. Abderrahman EL HISSE**  
 **Statut éditorial : V1 — À RELIRE / À VALIDER**
 
+## Site GitHub Pages
+
+[Ouvrir le site](https://elhisse-clprepas.github.io/atelier-seance-09-ln-ia/)
+
+[Suivre les déploiements](https://github.com/elhisse-CLPrepas/atelier-seance-09-ln-ia/actions) · [Audit du 23 octobre 2026](docs/AUDIT-2026-10-23.md)
+
 ## COMMENCER ICI
 
 Deux façons d’ouvrir l’atelier :

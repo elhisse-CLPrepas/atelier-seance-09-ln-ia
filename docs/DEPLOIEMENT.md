@@ -33,3 +33,7 @@ Ces étapes ne sont à exécuter qu’après instruction explicite du pilote. La
 L'URL probable selon le compte est `https://elhisse-clprepas.github.io/atelier-seance-09-ln-ia/` ; ce n’est **pas** une URL de publication vérifiée.
 
 Le ZIP ne contient ni mot de passe ni clé API. Ne pas publier des notes personnelles des participants dans le dépôt public.
+
+## Mise en service du 23 octobre 2026
+
+Le remote origin pointe vers https://github.com/elhisse-CLPrepas/atelier-seance-09-ln-ia.git ; main suit origin/main. GitHub Pages est activé avec build_type=workflow et HTTPS. Consulter Actions pour le résultat de chaque déploiement. Cette mise en service remplace les indications prévisionnelles ci-dessus.
