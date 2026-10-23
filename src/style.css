@@ -75,3 +75,16 @@ h1,h2,h3,strong{font-family:system-ui,"Segoe UI",sans-serif}
 .stats{gap:12px;margin-top:22px}.stats div{background:transparent;border-color:#d9dedf;box-shadow:none;padding:16px}.stats strong{color:#80571f;font-size:28px}
 @media(max-width:1200px){.path-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.main-content{padding-top:20px}.home-hero{border-radius:16px}.hero-text{padding:30px 22px}.hero-text h1{font-size:36px}.hero-art{padding:20px 28px 32px}.path-links{grid-template-columns:1fr}.learning-path{margin-top:26px}}
+
+/* Affiches fournies par le pilote : images entières, textes et accès clavier. */
+.hero-art>a{display:block;max-width:100%;border-radius:12px}.hero-art img{display:block;object-fit:contain;height:auto;max-height:410px;width:auto;max-width:100%}
+.poster-section{margin:36px 0}.poster-section h2{font-size:clamp(23px,2.4vw,32px);color:#15324d;letter-spacing:-.035em;margin:10px 0}
+.poster-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:start}
+.poster-card{margin:0;min-width:0;border:1px solid #d9dedf;border-radius:14px;overflow:hidden;background:#fff}
+.poster-open{display:block;background:#07172d;padding:8px}.poster-open img{display:block;width:100%;height:auto;object-fit:contain}
+.poster-card figcaption{padding:18px}.poster-card figcaption strong{font-size:16px;line-height:1.4;display:block}.poster-card figcaption p{font-size:13px;margin:10px 0;color:#435e77}.poster-card figcaption small{font-size:12px;line-height:1.6;display:block;color:#526780}
+.poster-hint{display:block;color:#80571f;font-size:12px;font-weight:700;margin-top:12px}
+.poster-slide{position:relative;z-index:2;width:100%;max-width:440px;background:#102b49;border-color:#b38b4966;color:#fff}.poster-slide .poster-open{padding:0}.poster-slide img{max-height:540px}.poster-slide figcaption{padding:12px 15px}.poster-slide figcaption strong{font-size:13px}.poster-slide figcaption p{display:none}.poster-slide figcaption small{color:#d3deeb;font-size:11px}.poster-slide .poster-hint{color:#edc889;margin-top:8px}.slide-figure:has(.poster-slide){padding:20px 20px 45px}
+@media(max-width:1100px){.poster-gallery{gap:12px}.poster-card figcaption{padding:14px}}
+@media(max-width:850px){.poster-gallery{grid-template-columns:1fr}.poster-gallery .poster-card{display:grid;grid-template-columns:minmax(130px,.8fr) 1fr}.poster-slide img{max-height:490px}.hero-art img{max-height:460px}}
+@media(max-width:520px){.poster-gallery .poster-card{display:block}.poster-slide img{max-height:none}.poster-slide{max-width:100%}}
